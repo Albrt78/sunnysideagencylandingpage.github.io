@@ -51,35 +51,37 @@ body {
             }
 
             .header__navbar {
-                display: flex;
-                align-items: center;
-                gap: 2.89rem;
-
-                li {
-                    font-size: 1.2rem;
-                    font-family: "Barlow", sans-serif;
-                    cursor: pointer;
-
-                    &:last-child {
-                        background-color: $White;
-                        color: $Very-dark-desaturated-blue;
-                        text-transform: uppercase;
-                        font-family: "Fraunces", serif;
-                        font-weight: 700;
-                        font-size: 1rem;
-                        padding-block: 1.2rem;
-                        padding-inline: 1.8rem;
-                        border-radius: 2.3rem;
+                ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 2.89rem;
+                    
+                    li {
+                        font-size: 1.2rem;
+                        font-family: "Barlow", sans-serif;
+                        cursor: pointer;
+    
+                        &:last-child {
+                            background-color: $White;
+                            color: $Very-dark-desaturated-blue;
+                            text-transform: uppercase;
+                            font-family: "Fraunces", serif;
+                            font-weight: 700;
+                            font-size: 1rem;
+                            padding-block: 1.2rem;
+                            padding-inline: 1.8rem;
+                            border-radius: 2.3rem;
+    
+                            &:hover {
+                                background-color: hsla(0, 0%, 100%, 0.285);
+                                color: $White;
+                            }
+                        }
 
                         &:hover {
-                            background-color: hsla(0, 0%, 100%, 0.285);
-                            color: $White;
+                            color: $Dark-blue;
+                            font-weight: 600;
                         }
-                    }
-
-                    &:hover {
-                        color: $Dark-blue;
-                        font-weight: 600;
                     }
                 }
             }
