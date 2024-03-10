@@ -55,12 +55,12 @@ body {
                     display: flex;
                     align-items: center;
                     gap: 2.89rem;
-                    
+
                     li {
                         font-size: 1.2rem;
                         font-family: "Barlow", sans-serif;
                         cursor: pointer;
-    
+
                         &:last-child {
                             background-color: $White;
                             color: $Very-dark-desaturated-blue;
@@ -71,7 +71,7 @@ body {
                             padding-block: 1.2rem;
                             padding-inline: 1.8rem;
                             border-radius: 2.3rem;
-    
+
                             &:hover {
                                 background-color: hsla(0, 0%, 100%, 0.285);
                                 color: $White;
@@ -395,11 +395,11 @@ body {
         }
 
         .image__article__wrapper {
-            padding-top: 10.4rem;
+            padding-top: 0.5rem;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             width: 100%;
-            height: 613px;
+            height: 448px;
 
             .image__gallery__milkbottles {
                 background-image: url("images/desktop/image-gallery-milkbottles.jpg");
@@ -616,6 +616,8 @@ body {
             flex-direction: column;
             text-align: center;
             padding-block-start: 10rem;
+            background-color: #fffbf8;
+            padding-bottom: 10rem;
 
             h1 {
                 font-family: "Fraunces", sans-serif;
@@ -740,7 +742,7 @@ body {
                 justify-content: center;
                 align-items: baseline;
                 padding-top: 5.7rem;
-                padding-bottom: 5rem;
+                padding-bottom: 3.9rem;
                 gap: 1.8rem;
 
                 li {
