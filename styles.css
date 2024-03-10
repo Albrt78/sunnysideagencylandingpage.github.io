@@ -46,7 +46,7 @@ body header .header__wrapper .header__navbar ul li {
   font-family: "Barlow", sans-serif;
   cursor: pointer;
 }
-body header .header__wrapper .header__navbar li:last-child {
+body header .header__wrapper .header__navbar ul li:last-child {
   background-color: hsl(0, 0%, 100%);
   color: hsl(212, 27%, 19%);
   text-transform: uppercase;
@@ -57,11 +57,11 @@ body header .header__wrapper .header__navbar li:last-child {
   padding-inline: 1.8rem;
   border-radius: 2.3rem;
 }
-body header .header__wrapper .header__navbar li:last-child:hover {
+body header .header__wrapper .header__navbar ul li:last-child:hover {
   background-color: hsla(0, 0%, 100%, 0.285);
   color: hsl(0, 0%, 100%);
 }
-body header .header__wrapper .header__navbar li:hover {
+body header .header__wrapper .header__navbar ul li:hover {
   color: hsl(198, 62%, 26%);
   font-weight: 600;
 }
@@ -318,11 +318,11 @@ body main .random__article .photography__article__detail .photography__article__
   line-height: 1.6;
 }
 body main .image__article__wrapper {
-  padding-top: 10.4rem;
+  padding-top: 0.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
-  height: 613px;
+  height: 448px;
 }
 body main .image__article__wrapper .image__gallery__milkbottles {
   background-image: url("images/desktop/image-gallery-milkbottles.jpg");
@@ -469,6 +469,8 @@ body main .profile__wrapper {
   flex-direction: column;
   text-align: center;
   padding-block-start: 10rem;
+  background-color: #fffbf8;
+  padding-bottom: 10rem;
 }
 body main .profile__wrapper h1 {
   font-family: "Fraunces", sans-serif;
@@ -566,7 +568,7 @@ body footer .footer__info .footer__media {
   justify-content: center;
   align-items: baseline;
   padding-top: 5.7rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3.9rem;
   gap: 1.8rem;
 }
 body footer .footer__info .footer__media li:hover path {
