@@ -36,12 +36,12 @@ body header .header__wrapper .header__logo img {
   width: 10.5rem;
   padding-top: 0.5rem;
 }
-body header .header__wrapper .header__navbar {
+body header .header__wrapper .header__navbar ul {
   display: flex;
   align-items: center;
   gap: 2.89rem;
 }
-body header .header__wrapper .header__navbar li {
+body header .header__wrapper .header__navbar ul li {
   font-size: 1.2rem;
   font-family: "Barlow", sans-serif;
   cursor: pointer;
