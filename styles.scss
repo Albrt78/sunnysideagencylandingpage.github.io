@@ -246,6 +246,7 @@ body {
                     text-transform: uppercase;
                     position: relative;
                     color: $Very-dark-desaturated-blue;
+                    z-index: 0;
 
                     &::after {
                         content: "";
@@ -309,6 +310,7 @@ body {
                     text-transform: uppercase;
                     position: relative;
                     color: $Very-dark-desaturated-blue;
+                    z-index: 0;
 
                     &::after {
                         content: "";
