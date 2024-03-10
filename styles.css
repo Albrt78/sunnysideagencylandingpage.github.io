@@ -34,7 +34,7 @@ body header .header__wrapper {
 }
 body header .header__wrapper .header__logo img {
   width: 10.5rem;
-  padding-top: 0.8rem;
+  padding-top: 0.5rem;
 }
 body header .header__wrapper .header__navbar {
   display: flex;
@@ -76,13 +76,14 @@ body header .header__main h1 {
   font-family: "Fraunces", serif;
   text-align: center;
   font-size: 3.6rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.66rem;
   color: hsl(0, 0%, 100%);
 }
 body header .header__main img {
   position: absolute;
-  top: 45.7%;
+  top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -161,22 +162,23 @@ body header .header__main img {
     top: 60%;
   }
 }
-body main .main__wrapper .transform__article {
+body main .transform__article {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-body main .main__wrapper .transform__article .transform__detail {
-  padding-top: 9.8rem;
+body main .transform__article .transform__detail {
+  padding-top: 10.2rem;
   padding-inline-start: 10.2rem;
   padding-inline-end: 7rem;
 }
-body main .main__wrapper .transform__article .transform__detail h2 {
+body main .transform__article .transform__detail h2 {
   font-family: "Fraunces", serif;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
+  font-weight: 900;
   letter-spacing: 0.1rem;
   color: hsl(212, 27%, 19%);
 }
-body main .main__wrapper .transform__article .transform__detail p {
+body main .transform__article .transform__detail p {
   font-family: "Barlow", sans-serif;
   font-size: 0.95rem;
   font-weight: 400;
@@ -185,7 +187,7 @@ body main .main__wrapper .transform__article .transform__detail p {
   line-height: 1.6;
   color: hsl(213, 9%, 39%);
 }
-body main .main__wrapper .transform__article .transform__detail .transform__link {
+body main .transform__article .transform__detail .transform__link {
   font-family: "Fraunces", sans-serif;
   padding-left: 0.55rem;
   font-size: 0.9rem;
@@ -194,7 +196,7 @@ body main .main__wrapper .transform__article .transform__detail .transform__link
   position: relative;
   color: hsl(212, 27%, 19%);
 }
-body main .main__wrapper .transform__article .transform__detail .transform__link::after {
+body main .transform__article .transform__detail .transform__link::after {
   content: "";
   position: absolute;
   top: 0.8rem;
@@ -205,37 +207,39 @@ body main .main__wrapper .transform__article .transform__detail .transform__link
   background-color: hsl(51, 82%, 89%);
   z-index: -1;
 }
-body main .main__wrapper .transform__article .transform__detail .transform__link::after:hover {
+body main .transform__article .transform__detail .transform__link:hover::after {
   background-color: hsl(51, 100%, 49%);
 }
-body main .main__wrapper .transform__article img {
+body main .transform__article img {
   width: 100%;
+  height: 605px;
 }
-body main .main__wrapper .stand__out__article {
+body main .stand__out__article {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-body main .main__wrapper .stand__out__article .stand__out__detail {
-  padding-top: 9.5rem;
+body main .stand__out__article .stand__out__detail {
+  padding-top: 9.7rem;
   padding-inline-start: 7rem;
   padding-inline-end: 10rem;
 }
-body main .main__wrapper .stand__out__article .stand__out__detail h2 {
+body main .stand__out__article .stand__out__detail h2 {
   font-family: "Fraunces", serif;
   font-size: 2.4rem;
-  letter-spacing: 0.1rem;
+  font-weight: 900;
+  letter-spacing: 0.05rem;
   color: hsl(212, 27%, 19%);
 }
-body main .main__wrapper .stand__out__article .stand__out__detail p {
+body main .stand__out__article .stand__out__detail p {
   font-family: "Barlow", sans-serif;
   font-size: 0.95rem;
   font-weight: 400;
   padding-top: 2.1rem;
-  padding-bottom: 2.75rem;
+  padding-bottom: 2.77rem;
   line-height: 1.6;
   color: hsl(213, 9%, 39%);
 }
-body main .main__wrapper .stand__out__article .stand__out__detail .stand__out__link {
+body main .stand__out__article .stand__out__detail .stand__out__link {
   font-family: "Fraunces", sans-serif;
   padding-left: 0.3rem;
   font-size: 0.9rem;
@@ -244,7 +248,7 @@ body main .main__wrapper .stand__out__article .stand__out__detail .stand__out__l
   position: relative;
   color: hsl(212, 27%, 19%);
 }
-body main .main__wrapper .stand__out__article .stand__out__detail .stand__out__link::after {
+body main .stand__out__article .stand__out__detail .stand__out__link::after {
   content: "";
   position: absolute;
   top: 0.8rem;
@@ -255,118 +259,216 @@ body main .main__wrapper .stand__out__article .stand__out__detail .stand__out__l
   background-color: hsl(7, 90%, 89%);
   z-index: -1;
 }
-body main .main__wrapper .stand__out__article img {
+body main .stand__out__article .stand__out__detail .stand__out__link:hover::after {
+  background-color: hsl(7, 99%, 70%);
+}
+body main .stand__out__article img {
   width: 100%;
 }
-body main .main__wrapper .random__article {
+body main .random__article {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-body main .main__wrapper .random__article .random__article__detail {
-  position: relative;
+body main .random__article .graphic__design__article__detail {
+  background-image: url("images/desktop/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
-body main .main__wrapper .random__article .random__article__detail .random__article__info {
-  position: absolute;
+body main .random__article .graphic__design__article__detail .graphic__design__article__info {
+  padding-top: 24.7rem;
   text-align: center;
-  top: 24.3rem;
 }
-body main .main__wrapper .random__article .random__article__detail .random__article__info h2 {
+body main .random__article .graphic__design__article__detail .graphic__design__article__info h2 {
   font-family: "Fraunces", sans-serif;
   font-size: 1.8rem;
   color: hsl(167, 40%, 24%);
 }
-body main .main__wrapper .random__article .random__article__detail .random__article__info p {
-  margin-top: 1.7rem;
-  padding-inline: 12rem;
+body main .random__article .graphic__design__article__detail .graphic__design__article__info p {
+  margin-top: 1.73rem;
+  padding-inline: 11.6rem;
+  padding-bottom: 3.7rem;
   font-family: "Barlow", sans-serif;
+  font-size: 0.87rem;
   color: hsl(167, 40%, 24%);
   line-height: 1.6;
 }
-body main .main__wrapper .random__article .random__article__detail img {
+body main .random__article .photography__article__detail {
+  background-image: url("images/desktop/image-photography.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+body main .random__article .photography__article__detail .photography__article__info {
+  padding-top: 24.7rem;
+  text-align: center;
+}
+body main .random__article .photography__article__detail .photography__article__info h2 {
+  font-family: "Fraunces", sans-serif;
+  font-size: 1.8rem;
+  color: hsl(198, 62%, 26%);
+}
+body main .random__article .photography__article__detail .photography__article__info p {
+  margin-top: 1.73rem;
+  padding-inline: 11.6rem;
+  padding-bottom: 3.7rem;
+  font-family: "Barlow", sans-serif;
+  font-size: 0.87rem;
+  color: hsl(198, 62%, 26%);
+  line-height: 1.6;
+}
+body main .image__article__wrapper {
+  padding-top: 10.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
+  height: 613px;
+}
+body main .image__article__wrapper .image__gallery__milkbottles {
+  background-image: url("images/desktop/image-gallery-milkbottles.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+body main .image__article__wrapper .image__gallery__orange {
+  background-image: url("images/desktop/image-gallery-orange.jpg");
+  background-position: center;
+  background-size: cover;
+}
+body main .image__article__wrapper .image__gallery__cone {
+  background-image: url("images/desktop/image-gallery-cone.jpg");
+  background-position: center;
+  background-size: cover;
+}
+body main .image__article__wrapper .image__gallery__sugarcubes {
+  background-image: url("images/desktop/image-gallery-sugarcubes.jpg");
+  background-position: center;
+  background-size: cover;
 }
 @media (max-width: 1280.98px) {
-  body main .main__wrapper .transform__article .transform__detail {
+  body main .transform__article .transform__detail {
     padding-top: 5rem;
     padding-inline-start: 5rem;
   }
-  body main .main__wrapper .stand__out__article .stand__out__detail {
+  body main .stand__out__article .stand__out__detail {
     padding-top: 5rem;
     padding-inline-start: 5rem;
+    padding-inline-end: 5rem;
   }
-  body main .main__wrapper .random__article .random__article__detail .random__article__info {
-    top: 18rem;
+  body main .random__article .graphic__design__article__detail .graphic__design__article__info p {
+    padding-inline: 5rem;
   }
-  body main .main__wrapper .random__article .random__article__detail .random__article__info p {
-    margin-top: 0;
-    padding-inline: 2rem;
+  body main .random__article .photography__article__detail .photography__article__info p {
+    padding-inline: 5rem;
   }
 }
 @media (max-width: 1028.98px) {
-  body main .main__wrapper .transform__article .transform__detail {
-    padding-top: 2rem;
+  body main .stand__out__article .stand__out__detail {
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 992.98px) {
+  body main .transform__article .transform__detail {
+    padding-top: 3rem;
+    padding-inline-start: 3rem;
     padding-inline-end: 2rem;
   }
-  body main .main__wrapper .transform__article .transform__detail h2 {
-    font-size: 1.7rem;
+  body main .transform__article img {
+    width: 100%;
+    height: 100%;
   }
-  body main .main__wrapper .stand__out__article .stand__out__detail {
-    padding-top: 2rem;
+  body main .stand__out__article .stand__out__detail {
+    padding-top: 3rem;
+    padding-inline-start: 3rem;
     padding-inline-end: 5rem;
   }
-  body main .main__wrapper .stand__out__article .stand__out__detail h2 {
-    font-size: 1.7rem;
+  body main .stand__out__article img {
+    width: 100%;
+    height: auto;
   }
-  body main .main__wrapper .random__article .random__article__detail .random__article__info {
-    top: 13.5rem;
+  body main .random__article {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .random__article .graphic__design__article__detail .graphic__design__article__info h2 {
+    font-size: 2rem;
+  }
+  body main .random__article .graphic__design__article__detail .graphic__design__article__info p {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+  }
+  body main .random__article .photography__article__detail .photography__article__info {
+    margin-top: 1rem;
+  }
+  body main .random__article .photography__article__detail .photography__article__info h2 {
+    font-size: 2rem;
+  }
+  body main .random__article .photography__article__detail .photography__article__info p {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
   }
 }
-@media (max-width: 850.98px) {
-  body main .main__wrapper .transform__article {
+@media (max-width: 890.98px) {
+  body main .transform__article {
     display: flex;
     flex-direction: column-reverse;
-    text-align: center;
   }
-  body main .main__wrapper .transform__article .transform__detail {
-    padding-inline-start: 2rem;
-  }
-  body main .main__wrapper .stand__out__article {
+  body main .stand__out__article {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
-  body main .main__wrapper .random__article {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3rem;
+  body main .random__article {
+    margin-top: 2rem;
   }
-  body main .main__wrapper .random__article .random__article__detail .random__article__info {
-    position: absolute;
-    text-align: center;
-    top: 25rem;
-  }
-}
-@media (max-width: 768.98px) {
-  body main .main__wrapper .random__article .random__article__detail .random__article__info {
-    top: 45rem;
+  body main .image__article__wrapper {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (max-width: 576.98px) {
-  body main .main__wrapper .random__article .random__article__detail .random__article__info {
-    top: 35rem;
+  body main .transform__article {
+    text-align: center;
   }
-}
-@media (max-width: 430.98px) {
-  body main .main__wrapper .random__article .random__article__detail .random__article__info {
-    top: 23rem;
+  body main .transform__article .transform__detail {
+    padding-inline-end: 3rem;
+  }
+  body main .stand__out__article {
+    text-align: center;
+  }
+  body main .stand__out__article .stand__out__detail {
+    padding-inline-end: 3rem;
+  }
+  body main .random__article .graphic__design__article__detail {
+    background-image: url("images/mobile/image-graphic-design.jpg");
+    padding-inline: 0;
+  }
+  body main .random__article .graphic__design__article__detail .graphic__design__article__info p {
+    font-size: 1rem;
+  }
+  body main .random__article .photography__article__detail {
+    background-image: url("images/mobile/image-photography.jpg");
+    padding-inline: 0;
+  }
+  body main .random__article .photography__article__detail .photography__article__info p {
+    font-size: 1rem;
+  }
+  body main .image__article__wrapper .image__gallery__milkbottles {
+    background-image: url("images/mobile/image-gallery-milkbottles.jpg");
+  }
+  body main .image__article__wrapper .image__gallery__orange {
+    background-image: url("images/mobile/image-gallery-orange.jpg");
+  }
+  body main .image__article__wrapper .image__gallery__cone {
+    background-image: url("images/mobile/image-gallery-cone.jpg");
+  }
+  body main .image__article__wrapper .image__gallery__sugarcubes {
+    background-image: url("images/mobile/image-gallery-sugar-cubes.jpg");
   }
 }
 body main .profile__wrapper {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-block-start: 9.2rem;
+  padding-block-start: 10rem;
 }
 body main .profile__wrapper h1 {
   font-family: "Fraunces", sans-serif;
@@ -415,6 +517,7 @@ body main .profile__wrapper .profile__detail .profile__info h3 {
   }
   body main .profile__wrapper .profile__detail .profile__info p {
     padding-top: 1rem;
+    font-size: 1.2rem;
   }
   body main .profile__wrapper .profile__detail .profile__info h2 {
     padding-top: 1rem;
@@ -423,30 +526,30 @@ body main .profile__wrapper .profile__detail .profile__info h3 {
     padding-top: 0.5rem;
   }
 }
-@media (max-width: 375.98px) {
+@media (max-width: 576.98px) {
   body main .profile__wrapper h1 {
     font-size: 1rem;
   }
-}
-body footer .footer__img__wrapper {
-  padding-top: 10.4rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-body footer .footer__img__wrapper img {
-  width: 100%;
-  height: 447px;
+  body main .profile__wrapper .profile__detail {
+    padding-inline: 2rem;
+  }
+  body main .profile__wrapper .profile__detail .profile__info p {
+    font-size: 0.95rem;
+  }
 }
 body footer .footer__info {
   background-color: #90d4c5;
   text-align: center;
   padding-top: 4.5rem;
 }
+body footer .footer__info img {
+  width: 10.5rem;
+}
 body footer .footer__info .footer__services {
   font-family: "Barlow", sans-ser;
   display: flex;
   justify-content: center;
-  padding-top: 2.9rem;
+  padding-top: 2.3rem;
   gap: 3.5rem;
   cursor: pointer;
 }
@@ -461,16 +564,13 @@ body footer .footer__info .footer__services li:hover {
 body footer .footer__info .footer__media {
   display: flex;
   justify-content: center;
-  padding-top: 5.5rem;
-  padding-bottom: 2rem;
+  align-items: baseline;
+  padding-top: 5.7rem;
+  padding-bottom: 5rem;
   gap: 1.8rem;
 }
-body footer .footer__info .footer__media li a .fa-brands {
-  font-size: 1.35rem;
-  color: #2a7262;
-}
-body footer .footer__info .footer__media li a .fa-brands:hover {
-  color: hsl(0, 0%, 100%);
+body footer .footer__info .footer__media li:hover path {
+  fill: hsl(0, 0%, 100%);
 }
 body .attribution {
   font-size: 11px;
