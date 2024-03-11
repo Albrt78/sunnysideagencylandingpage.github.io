@@ -23,6 +23,8 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ## Overview
 
+Frontend Mentor is an online platform that provides challenges for web developers to improve their skills by building realistic projects. These challenges typically involve creating frontend designs based on provided designs or specifications.
+
 ### The challenge
 
 Users should be able to:
@@ -32,7 +34,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Sunnyside Agency Landing Page](./Sunnyside_agency_landing_page.png)
 
 ### Links
 
